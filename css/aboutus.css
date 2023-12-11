@@ -1,0 +1,51 @@
+.hero-about-us{
+    background-color: black;
+    text-align: center;
+    height: 300px;
+}
+.hero-about-us img{
+    width: 275px;
+    height: 80%;
+}
+.about-us-profiles{
+    display: flex;
+    gap: 16px;
+}
+.about-us-profiles img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+.about-us-profiles .profile-1{
+    display: flex;
+    align-items: center;
+    border-right: 5px solid black;
+}
+.about-us-profiles .profile-1 .profile-2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-us-profiles .profile-2{
+    display: flex;
+    align-items: center;
+}
+#profile-name{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+/*Media Query*/
+@media only screen and (max-width:600px){
+    .about-us-profiles{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .about-us-profiles .profile-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        border-right: none;
+    }
+    .about-us-profiles .profile-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,39 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    padding-top: 40px;
+}
+.main-content label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.main-content input[type=text]{
+    border-radius: 8px;
+    border-color: #AC9A74;
+    height: 32px;
+    width: 168px;
+}
+.main-content input[type=email]{
+    border-radius: 8px;
+    border-color: #AC9A74;
+    height: 32px;
+    width: 200px;
+}
+.main-content textarea{
+    border-radius: 8px;
+    border-color: #AC9A74;
+
+}
+@media only screen and (max-width:600px){
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main-content h1{
+        text-align: center;
+    }
+}
