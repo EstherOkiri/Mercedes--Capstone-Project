@@ -1,11 +1,13 @@
 .main-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #ac9a7432;
 }
 .main-content h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 64px;
     padding-top: 40px;
+    color: #AC9A74;
 }
 .main-content label{
     font-family: 'Times New Roman', Times, serif;
@@ -26,6 +28,17 @@
 .main-content textarea{
     border-radius: 8px;
     border-color: #AC9A74;
+
+}
+.main-content input[type=submit]{
+    background-color: black;
+    color: white;
+    height: 32px;
+    width: 64px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-content input[type=submit]:hover{
+    background-color: #AC9A74;
 
 }
 @media only screen and (max-width:600px){
