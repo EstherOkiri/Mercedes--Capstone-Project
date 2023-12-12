@@ -45,8 +45,7 @@
     color: blue;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 10px;
-    
+    padding-top: 10px; 
 }
 button{
     background-color: black;
@@ -79,6 +78,8 @@ button{
 }
 #ParisBest img{
     border-radius: 32px;
+    height: 400px;
+    width: 400px;
 }
 #DubaiBest{
    /*height: 300px;*/
@@ -97,7 +98,6 @@ h3{
 @media only screen and (max-width:600px){
     #BlogsHero{
         font-size: 8px;
-        
     }
     #DianiBest{
         display: grid;
