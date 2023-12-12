@@ -1,17 +1,17 @@
 .Dubai-ArticleHero{
-    background-image:url(../Images/DubaiImages/DubaiHero.jpeg);
+    background-image:url('../Images/DubaiImages/DubaiHero.jpeg');
     height: 250px;
     width: 100%;
     text-align: center;
 }
 .Paris-ArticleHero{
-    background-image:url(../Images/ParisImages/ParisHero.jpeg);
+    background-image:url('../Images/ParisImages/ParisHero.jpeg');
     height: 250px;
     width: 100%;
     text-align: center;
 }
 #Hero{
-    background-image:url(../Images/DianiImages/DianiHero.jpeg);
+    background-image:url('../Images/DianiImages/DianiHero.jpeg');
     height: 300px;
     width: 100%;
     text-align: center;
