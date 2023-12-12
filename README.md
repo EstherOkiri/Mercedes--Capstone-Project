@@ -16,6 +16,8 @@ f. Feedback form.
 
 # LIVE PROJECT LINK
 
+https://estherokiri.github.io/Mercedes--Capstone-Project/ 
+
 # TECHNOLOGY USED
 - Hyper Text Mark Up Language (HTML)
 - Cascading Style Sheets (CSS)
