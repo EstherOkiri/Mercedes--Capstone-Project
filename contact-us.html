@@ -22,21 +22,23 @@
     </div>
     <!--Hero Section-->
     <div class="main-content">
-        <div>
+        <div class="main-content-1">
             <h1>Contact Us</h1>
-            <p>Need to get in touch with us? Fill out the form with your inquiry.</p>
+            <p>Need to get in touch with us?  <br>Fill out the form with your question or comment.</p>
         </div>
         <div>
             <form action="" method="get">
-                <label for="F-Name">First Name</label>
-                <input type="text" name="F-Name"><br>
-                <label for="S-Name">Second Name</label>
-                <input type="text" name="S-Name" ><br>
-                <label for="E-mail">Email</label>
-                <input type="email"><br>
-                <label for="message">Message</label><br>
-                <textarea name="comment" cols="40" rows="10"></textarea><br>
-                <input type="submit">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="Name" id="name" placeholder="John Doe">
+                    <label for="email">Your Email:</label>
+                    <input type="email" name="Email" id="email" placeholder="johndoe@example.com">
+                    <label for="comment"> Comment or Question</label>
+                    <textarea name="comment" id="comment" placeholder="Type here...."></textarea> <br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+
                 
             </form>
         </div>
